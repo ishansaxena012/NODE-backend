@@ -1,0 +1,25 @@
+{
+  "name": "BACKEND",
+  "version": "1.0.0",
+  "description": "backend system",
+  "author": "Ishan Saxena",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "http-status-codes": "^2.3.0",
+    "mysql2": "^3.16.3",
+    "sequelize": "^6.37.7",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "sequelize-cli": "^6.6.5"
+  }
+}
